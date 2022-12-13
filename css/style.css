@@ -1,0 +1,190 @@
+/*El reset de css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 41, 41);
+}
+
+/*Header flex: para poder acomodar la barra de navegación y el logo*/
+header{
+    display: flex;
+    background-color: azure;
+}
+
+
+ul{
+    list-style: none;
+}
+
+nav{
+    width: 70%; /*Lo que quiero que ocupe la barra de navegación del header*/
+}
+
+header div{
+    width: 30%; /*Lo que quiero que ocupe el div en el header*/
+}
+
+a{
+    text-decoration: none;
+}
+
+.navegacion{
+    display: flex;
+    flex-wrap:  wrap;
+    height: 100%; /*Para posicionar la barra de navegación en el 100% de Nav*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navegacion li a{
+    padding: 10px;
+    background-color: rgb(255, 115, 0);
+    border-radius: 30%;
+    color: rgb(41, 41, 41);
+}
+
+.navegacion li a:hover{
+    background-color: orange;
+}
+
+/*Logo*/
+header div img{
+    width: 35%;
+    justify-content: flex-start;
+    padding: 1%;
+}
+
+.comienzo{
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+.comienzo h1{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding: 1%;
+}
+
+.comienzo p{
+    width: 50%;
+}
+
+.oportunidades{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    color: rgb(41, 41, 41);
+}
+
+.oportunidades img{
+    width: 200px;
+}
+
+.propiedades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.propiedades img{
+    width: 200px;
+}
+
+
+footer{
+    display: flex;
+}
+
+.footer__redes_sociales{
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+
+.footer__derechos {
+    display: flex;
+    width: 30%;
+    margin-top: 1%;
+}
+
+.footer__privacidad {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.footer__ir_a_inicio{
+    display: flex;
+    width: 20%;
+    margin-top: 1%;
+}
+
+i{
+    font-size: 20px;
+}
+
+.proceso{
+    display: flex;
+    justify-content: center;
+    padding: 1.5%;
+}
+
+.proceso__asesoria{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style-type: disc;
+    margin-bottom: 2%;
+}
+
+.proceso__asesoria--búsqueda{
+    width: 25%;
+}
+.proceso__asesoria--inmobiliaria{
+    width: 25%;
+}
+.proceso__asesoria--hipotecia{
+    width: 25%;
+}
+.proceso__asesoria--compra{
+    width: 25%;
+}
+
+.btn{
+    display: flex;
+    padding: 5px;
+    background-color: rgb(255, 115, 0);
+    color: rgb(41, 41, 41);
+    font-size: smaller;
+    justify-content: center;
+}
+
+.btn:hover{
+    background-color: orange;
+}
+
+.formulario{
+    background-color: beige;
+    overflow: hidden;
+    padding: 1%;
+    font-size: 20px;
+    border-style: double;
+    border-top: double 5px orange;
+    border-right: double 5px orange;
+    border-left: double 5px orange;
+    border-bottom: double 5px orange;
+}
